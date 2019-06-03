@@ -35,8 +35,8 @@ You can reach the community by:
 If you want to contribute, make sure to follow the link:CONTRIBUTING.adoc[contribution guidelines]
 when you open issues or submit pull requests.
 
-----------------------------
 
+----------------------------
 #### CodeReady Containers (CRC)
 
 你可以参考git repo 中的docs,你也可以用一下方法生成一个漂亮的html docs 文件：
