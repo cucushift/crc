@@ -34,3 +34,28 @@ You can reach the community by:
 
 If you want to contribute, make sure to follow the link:CONTRIBUTING.adoc[contribution guidelines]
 when you open issues or submit pull requests.
+
+----------------------------
+
+#### CodeReady Containers (CRC)
+
+你可以参考git repo 中的docs,你也可以用一下方法生成一个漂亮的html docs 文件：
+```
+$ git clone https://github.com/code-ready/crc
+$ cd crc
+$ make build_docs
+```
+
+This will generate docs/build/master.html
+
+##### 安装 slirp4netns
+```
+$ sudo yum install glib2-devel
+$ sudo yum group install "Development Tools"
+$ git clone https://github.com/rootless-containers/slirp4netns
+$ cd slirp4netns
+$ ./autogen.sh
+$ ./configure --prefix=/usr
+$ make
+$ sudo make install
+```
